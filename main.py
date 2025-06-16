@@ -1,11 +1,11 @@
 from machine import Pin
 from utime import sleep
 
-U = Pin(11, Pin.OUT)
-N = Pin(12, Pin.OUT)
-I = Pin(5, Pin.OUT)
-T = Pin(4, Pin.OUT)
-E = Pin(3, Pin.OUT)
+U = Pin(3, Pin.OUT)
+N = Pin(5, Pin.OUT)
+I = Pin(4, Pin.OUT)
+T = Pin(12, Pin.OUT)
+E = Pin(11, Pin.OUT)
 
 U.off()
 N.off()
@@ -13,7 +13,7 @@ I.off()
 T.off()
 E.off()
 
-
+# 
 
 def light_up_sequence():
     U.on()
