@@ -1,1 +1,1 @@
-https://niiccoo2.xyz/we-the-people-unite/
+https://nicosmith.net/we-the-people-unite/
